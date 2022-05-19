@@ -1,0 +1,36 @@
+.budget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #272727;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #797979;
+    }
+
+    button {
+        background: transparent;
+        font-size: 18px;
+        color: #272727;
+        font-weight: 500;
+        padding: 12px 24px;
+        border: 1px solid #272727;
+        transition: 0.5s;
+
+        &:hover {
+            background: #272727;
+            color: white;
+        }
+    }
+}

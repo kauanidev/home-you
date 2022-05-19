@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+
+    section {
+        display: flex;
+        align-items: center;
+        gap: 56px;
+
+        div {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .links {
+        gap: 48px;
+
+        a {
+            font-size: 18px;
+            font-weight: 500;
+            color: #272727;
+            text-decoration: none;
+        }
+    }
+
+    .icons {
+        gap: 32px;
+        
+        img {
+            cursor: pointer;
+        }
+    }
+}

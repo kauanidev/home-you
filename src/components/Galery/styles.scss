@@ -1,0 +1,31 @@
+.galery {
+    background: #F9F9F9;
+    padding: 90px 0px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        text-align: center;
+
+        .pics {
+            display: flex;
+            gap: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #272727;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            color: #797979;
+            line-height: 28px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+footer {
+    background: #F9F9F9;
+    padding: 70px 0px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        cursor: pointer;
+
+        li {
+            font-size: 12px;
+            font-weight: 400;
+            color: #272727;
+            
+            strong {
+                font-size: 14px;
+            }
+        }
+    }
+}
